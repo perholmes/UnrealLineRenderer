@@ -26,15 +26,23 @@ This line renderer was written as part of porting the app Shot Designer 3D from 
 # Examples
 
 *Image of control points, and an animated red ball moving at constant speed along spline:*
+
 ![image info](./Docs/animation.png)
 &nbsp;<br/>
 
 *Image of hit detector locating the point 54% along segment 1:*
+
 ![image info](./Docs/hitdetection.png)
 &nbsp;<br/>
 
 *Image of dotted line material being used:*
+
 ![image info](./Docs/dotted.png)
+&nbsp;<br/>
+
+*Image of "sidelines", a Shot Designer-specific feature for showing camera movement:*
+
+![image info](./Docs/sidelines.png)
 
 # How To Use
 
