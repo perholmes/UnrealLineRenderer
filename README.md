@@ -23,21 +23,23 @@ This line renderer was written as part of porting the app Shot Designer 3D from 
 - Animation functions for getting linear movement along spline.
 - Shot Designer-specific feature to draw lines next to main line to illustrate camera movement. Just ignore.
 
-![image info](./Docs/animation.png)
+# Examples
+
 *Image of control points, and an animated red ball moving at constant speed along spline:*
-<br/>
+![image info](./Docs/animation.png)
+&nbsp;<br/>
 
-![image info](./Docs/hitdetection.png)
 *Image of hit detector locating the point 54% along segment 1:*
-<br/>
+![image info](./Docs/hitdetection.png)
+&nbsp;<br/>
 
-![image info](./Docs/dotted.png)
 *Image of dotted line material being used:*
+![image info](./Docs/dotted.png)
 
 # How To Use
 
 The code is extracted from the Shot Designer 3D project, and maintains some file structure.
-- The main code is in Source/LineRenderer/Graphics.
+- The main code is in Source/LineRenderer/Graphics/LineRenderer.
 - Some utility functions are dragged along in Source/LineRenderer/Util.
 - Materials are in Content/Graphics/LineRenderer.
 
